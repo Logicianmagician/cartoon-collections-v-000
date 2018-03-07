@@ -9,7 +9,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.any? do { |i| i.capitalize.concat(!)}
+  array.any? { |i| i.capitalize.concat(!)}
 end
 
 def find_the_cheese# code an argument here
